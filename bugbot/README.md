@@ -65,8 +65,8 @@ BugBot is an interactive Streamlit app that leverages LLMs (via Groq) to:
 ## 🖼️ Screenshots
 
 ![BugBot UI Screenshot](![image](![bugbot_ui](https://github.com/user-attachments/assets/32042c94-e2c3-4864-bd01-4926df60e94f)
-)
-)
+
+
 
 ---
 
