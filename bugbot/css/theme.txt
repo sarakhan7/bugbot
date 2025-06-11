@@ -1,0 +1,45 @@
+<style>
+body {
+    background: linear-gradient(145deg, #00111C, #003A61);
+    color: #f0f0f0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+p {
+    color: #c2c2c2;
+    font-size: 1.1rem;
+}
+
+.stButton > button {
+    background: linear-gradient(90deg, #00ffa3 0%, #dc1fff 100%);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 999px;
+    padding: 0.7rem 1.8rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.stButton > button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+textarea, input {
+    background-color: #1e1e2f !important;
+    color: white !important;
+    border-radius: 10px;
+    border: 1px solid #333 !important;
+}
+
+footer, #MainMenu, header {
+    visibility: hidden;
+}
+</style>
