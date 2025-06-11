@@ -10,7 +10,7 @@ def main():
     )
 
     # Load CSS theme
-    with open("../css/theme.txt", "r") as css_file:
+    with open("css/theme.txt", "r") as css_file:
         css = css_file.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
