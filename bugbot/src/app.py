@@ -1,5 +1,6 @@
 import streamlit as st
 import core as hlpr_func  # updated from helper_functions
+import os
 
 def main():
     st.set_page_config(
@@ -9,8 +10,10 @@ def main():
         initial_sidebar_state="collapsed"
     )
 
-    # Load CSS theme
-    with open("css/theme.txt", "r") as css_file:
+    # Load CSS theme robustly
+    css_path = os.path.join(os.path.dirname(__file__), '..', 'css', 'theme.txt')
+    css_path = os.path.abspath(css_path)
+    with open(css_path, "r") as css_file:
         css = css_file.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
